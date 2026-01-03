@@ -1,23 +1,24 @@
 # WEB102 Prework - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: Jazmaine Requena
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 20 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [✔️] The introduction section explains thek background of the company and how many games remain unfunded.
+* [✔️] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [✔️] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [✔️] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [✔️] List anything else that you can get done to improve the app functionality!
+    ~Changed color and added a navbar
 
 ## Video Walkthrough
 
@@ -33,12 +34,11 @@ GIF created with ...
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+I went by the first few challenges faily eaisly, but it became difficult for me after challenge 3. I was not very knowlegeble with JavaScript prior to this project, but I watched videos and uased AI and other resoucres to help me solve the problems given.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2026] [Jazmaine Requena] ???
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
