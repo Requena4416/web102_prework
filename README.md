@@ -1,4 +1,4 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Crowdfunding CodePath WEB102 Prework
 
 Submitted by: Jazmaine Requena
 
@@ -28,7 +28,7 @@ Here's a walkthrough of implemented features:
 
 https://www.loom.com/share/0d2dc782053e4947b46577b94ce8e10b
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Loom
+Video created with Loom  Loom
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
