@@ -112,19 +112,26 @@ allBtn.addEventListener("click", showAllGames);
  * Challenge 6: Add more information at the top of the page about the company.
  * Skills used: template literals, ternary operator
 */
-
 // grab the description container
 const descriptionContainer = document.getElementById("description-container");
 
-// use filter or reduce to count the number of unfunded games
-const unfundedGamesCount = GAMES_JSON.filter(game => game.pledged < game.goal).length;
+// STEP 1: Count the number of unfunded games
+const numUnfunded = GAMES_JSON.filter(game => game.pledged < game.goal).length;
 
-// create a string that explains the number of unfunded games
-const unfundedGamesString = `A total of $${totalRaised.toLocaleString()} has been raised for ${GAMES_JSON.length} games. Currently, ${unfundedGamesCount} ${unfundedGamesCount === 1 ? "game remains" : "games remain"} unfunded. We need your help to fund these amazing games!`;
-descriptionContainer.innerHTML = unfundedGamesString;
+// STEP 2: Build the template string
+const totalRaised6 = GAMES_JSON.reduce((sum, game) => sum + game.pledged, 0);
+const totalGames6 = GAMES_JSON.length;
 
-// create a new DOM element containing the template string and append it to the description container
-descriptionContainer.innerHTML = unfundedGamesString;
+const descriptionStr = `
+A total of $${totalRaised6.toLocaleString()} has been raised for ${totalGames6} games.
+Currently, ${numUnfunded} ${numUnfunded === 1 ? "game remains" : "games remain"} unfunded.
+We need your help to fund these amazing games!
+`;
+
+// STEP 3: Append WITHOUT replacing the mission statement
+const descParagraph = document.createElement("p");
+descParagraph.innerText = descriptionStr.trim();
+descriptionContainer.appendChild(descParagraph);
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
@@ -150,10 +157,3 @@ firstGameContainer.appendChild(topGameElement);
 const runnerUpGameElement = document.createElement("p");
 runnerUpGameElement.innerHTML = `${runnerUpGame.name}`;
 secondGameContainer.appendChild(runnerUpGameElement);
-    
-    
-    
-    
-   
-   
-   
